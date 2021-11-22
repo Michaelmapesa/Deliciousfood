@@ -223,3 +223,38 @@
     left: 120px;
     top: 100px;
 }
+/*{section5---}*/
+.section5{
+    border: 2px solid black;
+    height: 900px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+}
+.intro2{
+    text-align: center;
+    color: white;
+}
+.shade7{
+    border: 1px solid #ee5253;
+    background-color: #ee5253;
+    height: 1px;
+    width: 100px;
+    position: relative;
+    left: 550px;
+    top: -30px;
+
+}
+.containerx{
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+.cardx{
+    margin-right: 70px;
+    border: 2px solid white;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+}
