@@ -1,3 +1,9 @@
+.section1{
+    border: 2px solid blue;
+    height: 850px;
+    background-color: blue;
+
+}
 .menu1>ul{
     display: flex;
     list-style: none;
@@ -14,4 +20,62 @@
     top: 40px;
     font-style: italic;
     font-size: xx-large;
+}
+#p1{
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+#p1>h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+#p1>p{
+    font-weight:bold;
+    color: whitesmoke;
+}
+#shade1{
+    border: 2px solid whitesmoke;
+    width: 160px;
+    border-radius: 100px;
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+/*{section2---}*/
+.section2{
+    border: 2px solid red;
+    height: 800px;
+}
+.maincontainer{
+    display: flex;
+
+}
+.container>img{
+    height: 100px;
+    width: 100px;
+}
+.container1{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+#image1{
+    margin-right: 10px;
+}
+.container2>h1{
+    font-size: 35px;
+    font-weight: 20px;
+}
+#shade2{
+    border: 2px solid red;
+    height: 1px;
+    width: 100px;
+    background-color: red;
+}
+#shade3{
+    border: 2px solid red;
+    width: 160px;
+    border-radius: 100px;
 }
