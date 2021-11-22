@@ -1,0 +1,17 @@
+.menu1>ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: -550px;
+    
+}
+.menu1>ul>li{
+    margin-right: 30px;
+}
+#logo{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    font-style: italic;
+    font-size: xx-large;
+}
