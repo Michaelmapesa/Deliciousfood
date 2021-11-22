@@ -46,10 +46,12 @@
 /*{section2---}*/
 .section2{
     border: 2px solid red;
-    height: 800px;
+    height: 900px;
 }
 .maincontainer{
     display: flex;
+    position: relative;
+    top: 150px;
 
 }
 .container>img{
@@ -60,6 +62,13 @@
     display: flex;
     margin: 20px;
     justify-content: space-around;
+    position: relative;
+    left: 25px;
+}
+.container2{
+    position: relative;
+    right: 50px;
+
 }
 #image1{
     margin-right: 10px;
@@ -78,4 +87,10 @@
     border: 2px solid red;
     width: 160px;
     border-radius: 100px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.container2>p{
+    font-size: 18px;
 }
