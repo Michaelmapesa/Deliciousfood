@@ -188,3 +188,38 @@
     left: 500px;
     top: 70px;
 }
+/*{section2---}*/
+.section4{
+    border: 2px solid white;
+    height: 1000px;
+    background-color: white;
+}
+.intro{
+    text-align: center;
+}
+#shade6{
+    border: 1px solid #ee5253;
+    background-color: #ee5253;
+    height: 1px;
+    width: 100px;
+    position: relative;
+    left: 550px;
+
+}
+.card4{
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin-right: 45px;
+    margin-top: 45px;
+}
+.subcontainer4{
+    display: flex;
+}
+.maincontainer5{
+    position: relative;
+    left: 120px;
+    top: 100px;
+}
