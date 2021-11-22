@@ -36,17 +36,19 @@
     color: whitesmoke;
 }
 #shade1{
-    border: 2px solid whitesmoke;
+    border: 2px solid #ee5253;
     width: 160px;
     border-radius: 100px;
     position: relative;
     left: 550px;
     top: 30px;
+    background-color: #ee5253;
 }
 /*{section2---}*/
 .section2{
     border: 2px solid red;
     height: 900px;
+    background-color: white;
 }
 .maincontainer{
     display: flex;
@@ -67,7 +69,8 @@
 }
 .container2{
     position: relative;
-    right: 50px;
+    right: 90px;
+    top: 60px;
 
 }
 #image1{
@@ -90,7 +93,86 @@
     text-align: center;
     position: relative;
     top: 10px;
+    color: white;
+    background-color: #ee5253;
 }
 .container2>p{
-    font-size: 18px;
+    font-size: large;
+}
+/*{section3---}*/
+.section3{
+    border: 2px solid green;
+    height: 1800px;
+    background-color: whitesmoke;
+}
+#description{
+    text-align: center;
+    font-size: larger;
+}
+#shade4{
+    background-color:#ee5253;
+    height: 1px; 
+    width: 130px;
+    border: 2px solid #ee5253;
+    position: relative;
+    left: 580px;
+    
+}
+.card{
+    border: 2px solid white;
+    width: 280px;
+    height: 450px;
+    margin-right: 20px;
+    background-color: white;
+}
+.cont{
+    display: flex;
+    
+}
+.cont>p{
+    margin-right: 70px;
+    font-size: larger;
+    font-weight: bold;
+}
+.dolar{
+    color: white;
+    border: 2px solid #ee5253;
+    background-color: #ee5253;
+    height: 25px;
+    width: 35px; 
+    font-size: larger;
+    
+    
+}
+.star{
+    position: relative;
+    left: 23px;
+}
+.order{
+    border: 1px solid red;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+    color: #ee5253;
+    background-color: inherit;
+}
+.subcontainer1{
+    display: flex;
+    position: relative;
+    left: 30px;
+    
+}
+.card1{
+    border: 2px solid white;
+    width: 280px;
+    height: 450px;
+    margin-right: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+.subcontainer2{
+    display: flex;
+    position: relative;
+    left: 30px;
 }
