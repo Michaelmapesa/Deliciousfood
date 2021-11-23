@@ -1,7 +1,9 @@
 .section1{
     border: 2px solid blue;
     height: 850px;
-    background-color: blue;
+    background-image: url(images/img-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .menu1>ul{
@@ -188,7 +190,7 @@
     left: 500px;
     top: 70px;
 }
-/*{section2---}*/
+/*{section4---}*/
 .section4{
     border: 2px solid white;
     height: 1000px;
@@ -227,9 +229,10 @@
 .section5{
     border: 2px solid black;
     height: 900px;
-    background-color: black;
+    background-image: url(images/image1.png);
     position: relative;
     top: 100px;
+    background-size: cover;
 }
 .intro2{
     text-align: center;
@@ -344,7 +347,9 @@
 .section7{
     border: 2px solid blue;
     height: 350px;
-    background-color: black;
+    background-image: url(images/img-5.png);
+    background-size: cover;
+    
 }
 .containera{
     display: flex;
@@ -371,10 +376,14 @@
     left: 100px;
     top: 50px;
 }
+.section8{
+    background-color:navy;
+}
 .containerb{
     display: flex;
     position: relative;
     left: 80px;
+    color: white;
 }
 .subcontainerb{
     margin-right: 80px;
@@ -384,10 +393,14 @@
     width: 300px;
     position: relative;
     top: -20px;
+    background-color:whitesmoke;
+    border: 2px solid whitesmoke;
 }
 .btn{
+    border: 2px solid #ee5253;
     height: 25px;
     width: 310px;
     position: relative;
     top: -20px;
+    background-color:#ee5253 ;
 }
