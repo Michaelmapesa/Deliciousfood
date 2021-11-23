@@ -258,3 +258,116 @@
     text-align: center;
     background-color: white;
 }
+/*{section6---}*/
+.section6{
+    border: 2px solid white;
+    height: 700px;
+    background-color: white;
+}
+.intro3{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+}
+#name{
+    height: 30px;
+    width: 650px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+#email{
+    height: 30px;
+    width: 650px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+    
+}
+#phone {
+    height: 30px;
+    width: 300px;
+    margin-right: 40px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+#person{
+    height: 30px;
+    width: 300px;
+    background-color: whitesmoke; 
+    border: 2px solid whitesmoke;
+}
+#date{
+    height: 30px;
+    width: 300px; 
+    background-color: whitesmoke; 
+    border: 2px solid whitesmoke;  
+}
+#time{
+    height: 30px;
+    width: 300px; 
+    position: relative;
+    left: 350px;
+    top: -55px; 
+    background-color: whitesmoke; 
+    border: 2px solid whitesmoke; 
+}
+#message{
+    height: 80px;
+    width: 650px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -55px;
+    border: 2px solid whitesmoke;
+}
+.form{
+    position: relative;
+    left: 300px;
+    top: 80px;
+}
+.shade8{
+    text-align: center;
+    border: 2px solid #ee5253;
+    color: white;
+    background-color: #ee5253;
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    position: relative;
+    top: 80px;
+    left: 560px;
+}
+/*{section7---}*/
+.section7{
+    border: 2px solid blue;
+    height: 350px;
+    background-color: black;
+}
+.containera{
+    display: flex;
+    position: relative;
+    left: 35px;
+}
+.subcontainera{
+    justify-items: center;
+    border: 2px solid red;
+    height: 200px;
+    width: 280px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-right: 10px;
+    color: white;
+}
+.shade9{
+    border: 1px solid #ee5253;
+    background-color: #ee5253;
+    height: 1px;
+    width: 100px;  
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
